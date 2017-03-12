@@ -160,7 +160,7 @@ body {
 }
 
 .tilbud-content {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: "Lato";
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -223,7 +223,7 @@ padding-top: 3rem;
 }
 
 .image2-content {
-   font-size: 1.5rem;
+   font-size: 2rem;
     font-family: "Lato";
     padding-top: 7rem;
     padding-bottom: 0.5rem;
@@ -249,4 +249,20 @@ padding-top: 3rem;
 .booking-picker select {
     border: 0;
     background-color: #F1F1F1;
+}
+
+.image3-header {
+position: absolute;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: "Lato";
+    color: red;    
+}
+.image3-content {
+ font-size: 2rem;
+    font-family: "Lato";
+    padding-top: 7rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    position: absolute;      
 }
