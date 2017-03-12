@@ -118,6 +118,13 @@ a {
     /*border-top: 1px solid black;*/
   }
 }
+
+.navbar-fixed {
+  background: white;
+  padding: 10px 0;
+  /*padding: 0.5rem, 0, 0.5rem, 0;*/
+}
+
 .intro {
   display: table;
   width: 100%;

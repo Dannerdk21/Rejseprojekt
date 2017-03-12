@@ -1,6 +1,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #F1F1F1;
+    color: black;
+    font-size: 1.5rem;
 }
 
 .small-gutter{
@@ -119,6 +121,10 @@ body {
     background-color: #bdc3c7;
 }
 
+.top-header {
+    padding-bottom: 1rem;
+}
+
 .box {
     height: 25rem;
     background-color: #d81939;    
@@ -194,5 +200,32 @@ left: 50;
 right: 50;
 height: 65rem;
 border: solid 2px black;
+}
 
+.booking-header {
+    padding-top: 3rem;
+    font-family: "Lato";
+    color: #003D50;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.text-content {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.booking-picker{
+    background-color: white;
+    border-top: 4px solid #003D50;
+    padding: 1.5rem;
+}
+
+.color {
+    background-color: green;
+}
+
+.booking-picker select {
+    border: 0;
+    background-color: #F1F1F1;
 }
