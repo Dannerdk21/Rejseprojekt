@@ -111,11 +111,11 @@ a {
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
   .navbar-custom.top-nav-collapse {
-    padding: 0;
+    padding: 1rem;
     background-color: white;
     border-color: gray;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    /*border-bottom: 1px solid black;*/
+    /*border-top: 1px solid black;*/
   }
 }
 .intro {
