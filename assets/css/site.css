@@ -145,15 +145,19 @@ body {
     border-right: 0.25rem solid white;
 }
 
-.header{
+.tilbud-header{
     padding-top: 3rem;
     font-size: 2.5rem;
     font-weight: 600;
     font-family: "Lato";
 }
 
-.underline {
-    border-bottom: 2px solid white;
+.tilbud-content {
+    font-size: 1.5rem;
+    font-family: "Lato";
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 4px solid white;
 }
 
 .footer {
