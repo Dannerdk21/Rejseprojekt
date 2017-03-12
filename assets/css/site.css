@@ -156,6 +156,7 @@ body {
     font-size: 2.5rem;
     font-weight: 600;
     font-family: "Lato";
+    color: white;
 }
 
 .tilbud-content {
@@ -164,6 +165,7 @@ body {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     border-bottom: 4px solid white;
+    color: white;
 }
 
 .footer {
@@ -209,6 +211,25 @@ border: solid 2px black;
     font-size: 3rem;
     font-weight: 800;
 }
+
+
+.image2-header {
+position: absolute;
+padding-top: 3rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: "Lato";
+    color: white;  
+}
+
+.image2-content {
+   font-size: 1.5rem;
+    font-family: "Lato";
+    padding-top: 7rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    position: absolute;        
+    }
 
 .text-content {
     padding-top: 1rem;
