@@ -4,16 +4,18 @@
 </div>
 <div class="container">
     <div class="booking-header">
-        Fly til London fra København
+        Fly til ... fra ...
     </div>
     <div class="text-content">
         Vælg ønsket udrejse- og returdato. Tryk "Vis flyafgange" for at fortsætte.
     </div>
     <div class="booking-picker">
         <div class="row small-gutter">
-            <div class="col-md-2">
+            <div class="col-md-1">
                 <span>Fly fra</span>
-                 <select>
+            </div>
+            <div class="col-md-2 remove-padding-left">
+                <select class="big-select">
                     <option>London</option>
                     <option>Stockholm</option>
                     <option>Oslo</option>
@@ -21,25 +23,54 @@
                 </select>
             </div>
             <div class="col-md-2">
-               
+                <div class="checkbox1">
+                    <label><input type="checkbox" value="">Returrejse</label>
+                </div>
+            </div>
+            <div class="col-md-1">
+                Udgående
             </div>
             <div class="col-md-2">
-
+                <select class="big-select">
+                    <option>marts 2017</option>
+                    <option>april 2017</option>
+                    <option>maj 2017</option>
+                    <option>juni 2017</option>
+                    <option>juli 2017</option>
+                    <option>august 2017</option>
+                </select>
             </div>
-            <div class="col-md-2">
-
+            <div class="col-md-1 remove-padding-left remove-padding-right">
+                <span>
+                    Voksne
+                </span>
+                <select class="small-select">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
             </div>
-            <div class="col-md-2">
-
+            <div class="col-md-1 remove-padding-right">
+                <span>
+                    Børn (2-11)
+                </span>
             </div>
-            <div class="col-md-2">
-
+            <div class="col-md-1 remove-padding-left remove-padding-right">
+                <select class="small-select">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-1 remove-padding-right">
                 <span>Fly til</span>
-                <select>
+            </div>
+            <div class="col-md-2 remove-padding-left">
+                <select class="big-select">
                     <option>London</option>
                     <option>Stockholm</option>
                     <option>Oslo</option>
@@ -47,21 +78,81 @@
                 </select>
             </div>
             <div class="col-md-2">
-
+                <div class="checkbox1">
+                    <label><input type="checkbox" value="">Vis kun direkte</label>
+                </div>
+            </div>
+            <div class="col-md-1">
+                Retur
             </div>
             <div class="col-md-2">
-
+                <select class="big-select">
+                    <option>marts 2017</option>
+                    <option>april 2017</option>
+                    <option>maj 2017</option>
+                    <option>juni 2017</option>
+                    <option>juli 2017</option>
+                    <option>august 2017</option>
+                </select>
             </div>
-            <div class="col-md-2">
-
+            <div class="col-md-1">
             </div>
-            <div class="col-md-2">
-
+            <div class="col-md-1 remove-padding-right">
+                <span>
+                    Spædbørn
+                </span>
             </div>
-            <div class="col-md-2">
-
+            <div class="col-md-1 remove-padding-left">
+                <select class="small-select">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="booking-picker-date">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="small-gutter">Vælg din udrejse dato</div>
+                <div>
+                    <div class="form-group">
+                        <div class='input-group date' id='datetimepicker1'>
+                            <input type='text' class="form-control" />
+                            <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="small-gutter">Vælg din hjemrejse dato</div>
+                <div>
+                    <div class="form-group">
+                        <div class='input-group date' id='datetimepicker2'>
+                            <input type='text' class="form-control" />
+                            <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="booking-picker-confirm">
+        <div class="row">
+            <div class="col-md-12">
+                <a class="confirm">Book nu</a>
             </div>
         </div>
     </div>
 </div>
 </div>
+
+<script type="text/javascript">
+    $('#datetimepicker1').datepicker(); 
+    $('#datetimepicker2').datepicker(); 
+</script>

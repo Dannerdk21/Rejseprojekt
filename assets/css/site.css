@@ -229,3 +229,60 @@ border: solid 2px black;
     border: 0;
     background-color: #F1F1F1;
 }
+
+@media (min-width: 768px) {
+    .remove-padding-left {
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .remove-padding-right {
+        padding-right: 0;
+    }
+
+    .right {
+        float: right;
+    }
+}
+
+.booking-picker label {
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.big-select {
+    width: 100%;
+}
+
+.checkbox1 {
+    padding: 0;
+}
+
+.booking-picker-date {
+    padding-top: 3rem;
+}
+
+.booking-picker-confirm {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.confirm {
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: #C61734;
+    color: white;
+    float: right;
+    font-family: "Lato";
+}
+
+.confirm:hover {
+    background-color: #d81939;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
