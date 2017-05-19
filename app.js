@@ -19,6 +19,10 @@ app.get('/booking', function (req, res) {
   res.render('Booking');  
 })
 
+app.get('/english', function (req, res) {
+  res.render('English');  
+})
+
 // Start service
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!')

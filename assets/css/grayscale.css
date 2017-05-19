@@ -66,13 +66,13 @@ a {
 }
 .navbar-custom .navbar-brand {
   font-weight: 700;
-    color: black;
+    color: white;
 }
 .navbar-custom .navbar-brand:focus {
   outline: none;
 }
 .navbar-custom a {
-  color: black;
+  color: white;
   font-weight: bold;
 }
 .navbar-custom .nav li a {
@@ -113,16 +113,21 @@ a {
   }
   .navbar-custom.top-nav-collapse {
     padding: 1rem;
-    background-color: white;
+    background-color: #2B2A27;
     border-color: gray;
+    color:black;
+    opacity: 0.95;
     /*border-bottom: 1px solid black;*/
     /*border-top: 1px solid black;*/
   }
 }
-
+.navbar-custom .navbar-collapse {
+color: white;
+}
 .navbar-fixed {
   background: white;
   padding: 10px 0;
+  text-color:black;
   /*padding: 0.5rem, 0, 0.5rem, 0;*/
 }
 

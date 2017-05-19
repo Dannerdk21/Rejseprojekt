@@ -15,7 +15,7 @@ body {
 
 .navbar-custom .nav li a:hover {
     background-color: transparent;
-    color:black;
+    color:white;
     text-decoration: none;
     font-family: 'Lato';
     padding-bottom: 0.2rem;
@@ -59,13 +59,11 @@ body {
 .box3 {
     height: 40rem;
     font-family: 'Lato';
-    position: relative;
+    position:relative;
     overflow: hidden;
-    background-color: #bdc3c7;
 }
 
 .box3 img {
-    padding: 0;
     -webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
@@ -78,13 +76,6 @@ body {
      transform:scale(1.12);
 }
 
-.box3 img:hover {
-    -webkit-transform:scale(1.18); /* Safari and Chrome */
-    -moz-transform:scale(1.18); /* Firefox */
-    -ms-transform:scale(1.18); /* IE 9 */
-    -o-transform:scale(1.18); /* Opera */
-     transform:scale(1.18);
-}
 
 .box4 {
     height: 25rem;
@@ -378,4 +369,30 @@ padding: 5px;
 width: 30px;
 height: 30px;
 padding: 5px;
+}
+
+h3 { 
+   position: absolute; 
+   bottom:1px; 
+   left: 0; 
+   width: 100%;
+   text-align: center;
+   color:white;
+   text-decoration: underline;
+}
+
+.box8 {
+height:30rem;
+    font-family: 'Lato';
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    align:center;
+    padding: 1px;
+    padding-top: 12rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: "Lato";
+    color: white;
+    text-align:center;    
 }
