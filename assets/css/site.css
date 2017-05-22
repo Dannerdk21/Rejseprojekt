@@ -382,17 +382,21 @@ h3 {
 }
 
 .box8 {
-height:30rem;
-    font-family: 'Lato';
-    position: relative;
+    height: 25rem;
+    font: "Arial-narrow";
     overflow: hidden;
-    background-color: white;
-    align:center;
-    padding: 1px;
-    padding-top: 12rem;
-    font-size: 2.5rem;
-    font-weight: 600;
-    font-family: "Lato";
-    color: white;
-    text-align:center;    
+    background-color: #E3E3E3;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    margin: 2rem;
+    width:150rem;
+    position:relative;
+    
+    color: black;
+    text-align:left;   
+}
+
+h4 {
+color: #C61734;
+padding-top: 2rem; 
 }
